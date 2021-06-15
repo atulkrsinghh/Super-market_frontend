@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atul Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap" rel="stylesheet">
+<body>
+    <style>
+        body{
+            font-family: 'Baloo Bhaina 2', cursive;
+           margin: 0px;
+           padding: 0px; 
+           background: url(cartshop.png);
+           color: white;
+        }
+        .left{
+           /* border: 2px solid red;*/
+            display: inline-block;
+            position: absolute;
+            left: 12px;
+            top: 10px;
+            
+            
+        }
+        .right{
+           /* border: 2px solid green ;*/
+            display: inline-block;
+            position: absolute;
+            right: 12px;
+            top: 10px;
+        }
+        .mid{
+            margin: auto;
+            width: 50%;
+            /*border: 2px solid rgb(173, 224, 77);*/
+            padding: 10px;
+            }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            color: white;
+            font-size: 25px;
+            text-decoration: none;
+        }
+        .navbar li a{
+            text-decoration: none;
+            padding: 10px;
+            color:white;
+        }
+        .btn{
+            padding: 7px 14px;
+            border-radius: 10px;
+            color:black;
+            background: white
+            margin: 9px;
+            text-decoration: none;
+            
+                    
+            }
+        .navbar li a:hover{
+            text-decoration: none;
+            color: rgb(211, 76, 76);
+        } 
+        .btn a{
+            color: black;
+            text-decoration: none;
+        }   
+        .btn a:hover{
+            color: chocolate;
+        }
+        .btn :hover{
+            color: darkgoldenrod;
+        }
+        .left img{
+            width: 103px;
+            height: 50px;
+            filter: invert(100%);
+        }
+        .left div{
+            text-align: center;
+            text-decoration: none;
+            color:black;
+            font-weight: bolder;
+        }
+        .container{
+            /*border: 2px solid black;*/
+            width: 40%;
+            margin: 10px 82px;
+            padding: 75px; ;
+            border-radius: 2px;
+            display: block;
+            color: black;
+        }
+        .form-details{
+            /*border: 2px solid black;*/
+            width: 33%;
+            font-family: 'Baloo Bhaina 2', cursive;
+
+        }
+        .form-details input{
+            text-align: center;
+            display: block;
+            width: 508px;
+            border: 2px solid black;
+            padding: 4px 4px;
+            margin: 11px;
+            border-radius: 8px;
+            font-family: 'Baloo Bhaina 2', cursive;
+        }
+        .btn1{
+            width: 508px;
+            text-align: center;
+            display: block;
+            border-radius: 8px;
+            margin: 11px;
+            padding: 4px 4px;
+            font-family: 'Baloo Bhaina 2', cursive;
+            }
+        .btn1:hover{
+            background-color: black;
+            color: white;
+        }    
+
+
+    </style>
+    <header class="header">
+    <div class="left"><img src="shopping.png">
+    <div>ATUL'S MART</div>
+    </div>
+    <div class="mid"><ul class="navbar">
+        <li><a href="#"> Home</a></li>
+        <LI><a href="#"> ABOUT US</a></LI>
+        <li><a href="#"> Contact Us</a></li>
+        <li><a href="#"> Shop With US</a></li>
+    </ul></div>
+    <div class="right">
+        <button class="btn"><a href="#"> SEARCH</a></button>
+        <button class="btn"><a href="#"> Join Now</a></button>              
+    </div>
+    <div class="container">
+        <h1>DoorStep Delivery.Drop your address.</h1>   
+        <div class="form-details">
+            <input type="text" name="" placeholder="Enter Your Name">
+            <input type="text" name="" placeholder="Your City">
+            <input type="text" name="" placeholder="Enter Addresss"> 
+            <input type="text" name="" placeholder="Nearby Lankmark">
+            <input type="text" name="" placeholder="Your Postal Code">
+            <input type="text" name="" placeholder="Enter your Mobile Number">
+            <button class="btn1">Submit</button>
+        </div>
+    </div>
+    </header>
+
+</body>
+</html>
